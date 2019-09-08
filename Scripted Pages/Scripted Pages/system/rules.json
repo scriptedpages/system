@@ -1,0 +1,166 @@
+{
+    "rules": {
+        "charactersByLine": {
+            "maxCharactersLine": 75,
+            "minCharactersLine": 30
+        },
+        "wordDocument": {
+            "longDocument_words": 50000,
+            "image_book_images": 10
+        },
+        "fontSize": {
+            "minFontSize": 8,
+            "maxFontSize": 12
+        },
+        "columns": {
+            "minColumns": 70,
+            "maxColumns": 140
+        },
+        "margins": {
+            "smallSize": {
+                "width": 170,
+                "height": 200,
+                "minTopMargin": 7,
+                "maxTopMargin": 15,
+                "minBotttomMargin": 7,
+                "maxBotttomMargin": 15,
+                "minInsideMargin": 7,
+                "maxInsideMargin": 20,
+                "minOutsideMargin": 7,
+                "maxOutsideMargin": 20
+            },
+            "bigSize": {
+                "minTopMargin": 7,
+                "maxTopMargin": 30,
+                "minBotttomMargin": 7,
+                "maxBotttomMargin": 30,
+                "minInsideMargin": 7,
+                "maxInsideMargin": 30,
+                "minOutsideMargin": 7,
+                "maxOutsideMargin": 30
+            }
+        },
+        "colors": {
+            "lightColors": {
+                "c0": [100, 0, 0, 0],
+                "c1": [0, 40, 100, 0],
+                "c2": [0, 60, 100, 0],
+                "c3": [0, 100, 100, 0],
+                "c4": [0, 39, 3, 0],
+                "c5": [56, 10, 0, 0],
+                "c6": [0, 0, 100, 0],
+                "c7": [2, 14, 38, 0]
+            },
+            "darkColors": {
+                "c0": [0, 0, 40, 0],
+                "c1": [0, 0, 40, 50]
+            }
+        },
+        "sizes": {
+            "smallSizes": {
+                "size0": [110, 170],
+                "size1": [130, 200],
+                "size2": [105, 180],
+                "size3": [120, 220]
+            },
+            "bigSizes": {
+                "size0": [170, 240],
+                "size1": [200, 270]
+            }
+        }
+    },
+    "PStyles": {
+        "treatTitles": {
+            "treatTitlesGenerative": true,
+            "treatTitlesGenerative_percentage": 90,
+            "newPage": false,
+            "columnBreak": false,
+            "backgroundColor": false,
+            "backgroundColor_percentage": 80
+        },
+        "checkBoxes": {
+            "keepStyles": false,
+            "mapStyles": false,
+            "generativeStyles": true
+        },
+        "Sizes_and_resopective_FontSizes": {
+            "pequenos_tam": 110,
+            "pequenos_fonte_text": [9, 10],
+            "pequenos_fonte_title": [20, 30],
+            "medios_tam": 150,
+            "medios_fonte_text": [10, 11],
+            "medios_fonte_title": [20, 30],
+            "grandes_tam": 200,
+            "grandes_fonte_text": [11, 13],
+            "grandes_fonte_title": [30, 40]
+        },
+        "chossenSizes": {
+            "titleSize": false,
+            "textSize": false
+        },
+        "styles": {
+            "style0": ["GillSans_Minion", "xxxxxxxx", "10.5pt", 1.3, "justified", "true", "  ", "xxxx", "35pt", "center"]
+        },
+        "styles_short": {
+            "style0": ["GillSans_Minion", "xxxxxxxxx", "10.5pt", 1.3, "justified", "true", "  ", "xxxxxx", "35pt", "center"]
+        }
+    },
+    "user": {
+        "document": {
+            "generativeDocument": true,
+            "createIndex": false,
+            "createColophon": false
+        },
+        "page": {
+            "pageWidth": "110 mm",
+            "pageHeight": "180 mm",
+            "generatePageSize": false,
+            "baseline": "14.4pt"
+        },
+        "margins": {
+            "generativeMargins": false,
+            "topMargin": "12 mm",
+            "bottomMargin": "7 mm",
+            "insideMargin": "12 mm",
+            "outsideMargin": "7 mm"
+        },
+        "grid": {
+            "generativeColumns": false,
+            "columns": 1,
+            "gutterSize": "4 mm",
+            "minGutterSize": 3,
+            "maxGutterSize": 7
+        },
+        "masters": {
+            "_comment": "0—5 Masters, 6 is generative",
+            "choosenMaster": 100
+        },
+        "capset": {
+            "_comment": "0—1 capset style, 2 is generative",
+            "choosenCapset": "random"
+        },
+        "textWrap": {
+            "textWrap_value": 5
+        }
+    },
+    "experimental": {
+        "shapes": {
+            "create_shapes": false,
+            "shapes_percentage": 10
+        },
+        "gradients": {
+            "create_gradients": false,
+            "gradients_percentage": 30,
+            "interiorMarginGradient": false,
+            "interiorMarginGradient_percentage": 60,
+            "exteriorMarginGradient": false,
+            "exteriorMarginGradient_percentage": 70
+        },
+        "textIndent": {
+            "randomTextIndent": false
+        },
+        "cover": {
+            "bigCover": false
+        }
+    }
+}
