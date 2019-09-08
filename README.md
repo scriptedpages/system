@@ -1,6 +1,6 @@
 # Scripted pages
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+Scripted Pages é um sistema algorítmico dedicado à geração de layouts de publicações impressas. Resumidamente, o sistema recebe como input o conteúdo da publicação (ficheiro Microsoft Word) e gera um layout para esse conteúdo (ficheiro Adobe InDesign). A composição dos conteúdos na página é feita com base em regras da macro e micro- tipografia recolhidas da literatura reconhecida na área da Tipografia e do Design Editorial. Estas regras foram apresentadas no capítulo anterior. Posteriormente, elas foram codificadas como regras no sistema e, assim, constituem o conhecimento do mesmo. Com base nestas regras e nos conteúdos o sistema percorre-as uma a uma e toma decisões na composição passo a passo.
 
 ## Instalação
 
@@ -9,3 +9,5 @@ O download inclui uma pasta a Scripted Pages que contém o sistema e o ficheiro 
 Depois deste processo, caso o InDesign esteja aberto, deve ser reiniciado de forma a verificar se o sistema está corretamente instalado. Para isso começa-se por abrir o painel de scripts através do menu Window → Utilities → Scripts panel e verificar se a pasta se encontra neste. Em seguida, é necessário verificar se está criado o menu Scripted Pages, localizado do lado esquerdo do menu Help. Caso se verifiquem estes dois pontos, o sistema encontra-se, então, pronto a usar.
 
 ## Testes
+
+A pasta Scripted Pages inclui ainda uma pasta "Documents to test" que inclui 3 ficheiros word, com e sem imagens que podem ser usados para testar o sistema.
