@@ -1,6 +1,6 @@
 # Scripted pages
 
-Scripted Pages é um sistema algorítmico dedicado à geração de layouts de publicações impressas. Resumidamente, o sistema recebe como input o conteúdo da publicação (ficheiro Microsoft Word) e gera um layout para esse conteúdo (ficheiro Adobe InDesign). A composição dos conteúdos na página é feita com base em regras da macro e micro- tipografia recolhidas da literatura reconhecida na área da Tipografia e do Design Editorial. Estas regras foram apresentadas no capítulo anterior. Posteriormente, elas foram codificadas como regras no sistema e, assim, constituem o conhecimento do mesmo. Com base nestas regras e nos conteúdos o sistema percorre-as uma a uma e toma decisões na composição passo a passo.
+Scripted Pages é um sistema algorítmico dedicado à geração de layouts de publicações impressas. Resumidamente, o sistema recebe como input o conteúdo da publicação (ficheiro Microsoft Word) e gera um layout para esse conteúdo (ficheiro Adobe InDesign). A composição dos conteúdos na página é feita com base em regras da macro e microtipografia recolhidas da literatura reconhecida na área da Tipografia e do Design Editorial. Estas regras foram apresentadas no capítulo anterior. Posteriormente, elas foram codificadas como regras no sistema e, assim, constituem o conhecimento do mesmo. Com base nestas regras e nos conteúdos o sistema percorre-as uma a uma e toma decisões na composição passo a passo.
 
 ## Instalação
 
